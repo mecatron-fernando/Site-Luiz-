@@ -144,8 +144,9 @@
     }
 
     .image-container img {
-      max-width: 100%;
-      width: 300px;
+      width: 300px; /* Largura fixa */
+      height: 200px; /* Altura fixa */
+      object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
@@ -178,7 +179,6 @@
   <header>
     <h1>LT Clean</h1>
     <p>Limpeza profissional de estofados com qualidade e garantia!</p>
-    
   </header>
 
   <!-- Seção de serviços -->
@@ -198,16 +198,16 @@
     </div>
     <!-- Botão do Instagram -->
     <p>
-    <a href="https://www.instagram.com/ltclean2024" class="instagram-button" target="_blank">
-      Conheça nosso serviço
-    </a>
+      <a href="https://www.instagram.com/ltclean2024" class="instagram-button" target="_blank">
+        Conheça nosso serviço
+      </a>
     </p>
   </section>
 
   <!-- Seção de antes e depois -->
   <section class="before-after">
     <h2>Antes e Depois</h2>
-    <p> imagens de exemplo </p>
+    <p>Imagens de exemplo</p>
     <div class="image-container">
       <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Sofá antes da limpeza">
       <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Sofá depois da limpeza">
@@ -220,15 +220,13 @@
     <p>
       A LT Clean é especializada em limpeza e higienização de estofados, utilizando produtos e técnicas avançadas para garantir a melhor qualidade. Nossa missão é proporcionar um ambiente mais limpo e saudável para você e sua família.
     </p>
-
     <a href="https://wa.me/5511940408552" class="cta-button">Agende agora!</a>
-    
   </section>
 
   <!-- Rodapé -->
   <footer>
     <p>&copy; LT Clean 2024. Todos os direitos reservados.</p>
-    <p><a href="tel:+5511 94040-8552">(11) 94040-8552 </a></p>
+    <p><a href="tel:+5511940408552">(11) 94040-8552</a></p>
   </footer>
 </body>
 </html>
